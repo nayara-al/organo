@@ -3,7 +3,7 @@ import './Colaborador.css'
 const Colaborador = ({nome, imagem, cargo, corDeFundo}) => { ///ou props, e aí usaria props.nome, props.imagem e props.cargo
     return (
         <div className='colaborador'>
-            <div className='cabecalho' style={{backgroundColor: corDeFundo>
+            <div className='cabecalho' style={{backgroundColor: corDeFundo}}>
                 <img src={imagem} alt={nome}/>
             </div>
             <div className='rodape'>
